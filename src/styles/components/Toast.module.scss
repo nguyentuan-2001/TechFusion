@@ -1,0 +1,18 @@
+.toast {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+
+  width: 95%;
+  height: 48px;
+  border-radius: 4px;
+
+  color: #FFFFFF;
+
+  margin: auto;
+  margin-top: 10px;
+  z-index: 100;
+
+  background: linear-gradient(270deg, #FF63BE -2.13%, #B14EFF 48.28%, #2B4DFE 96.54%);
+}

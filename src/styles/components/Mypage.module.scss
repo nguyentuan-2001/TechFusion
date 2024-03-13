@@ -1,0 +1,114 @@
+.hr {
+  height: 3px;
+  background: linear-gradient(270deg, #BEFE36 -2.13%, #FEF636 19.71%, #FF63BE 51.06%, #A635FF 77.27%, #2B4DFE 96.54%);
+  filter: blur(1px);
+}
+
+.mypageBlock {
+  position: relative;
+  box-sizing: border-box;
+
+  background: radial-gradient(97.96% 260.99% at 0% 100%, rgba(177, 78, 255, 0.5) 0%, rgba(48, 54, 77, 0) 42.71%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(100% 99.87% at 15.31% 0.13%, rgba(43, 77, 254, 0.5) 0%, rgba(48, 54, 77, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #30364D;
+  border-width: 1px 0px 0px 1px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.12);
+  /* Elevation//7 */
+
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2), 0px 7px 10px rgba(0, 0, 0, 0.14), 0px 2px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 30px;
+  z-index: 1;
+}
+
+.chargeButton {
+  width: 182px;
+  background: linear-gradient(270deg, #BEFE36 -2.13%, #FEF636 19.71%, #FF63BE 51.06%, #A635FF 77.27%, #2B4DFE 96.54%);
+  border-radius: 24px;
+  padding: 1px;
+
+  button {
+    position: relative;
+    border-radius: 24px;
+    width: 180px;
+    height: 34px;
+    /* Default */
+    background: #1F253A;
+
+    justify-content: flex-end;
+  
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px rgba(0, 0, 0, 0.14), 0px 1px 18px rgba(0, 0, 0, 0.12);
+
+    span {
+      position: absolute;
+      transform: translateY(-50%);
+      top: 50%;
+      right: 15.00%;
+    }
+  }
+}
+.changeAccountButton {
+  background: linear-gradient(270deg, #BEFE36 -2.13%, #FEF636 19.71%, #FF63BE 51.06%, #A635FF 77.27%, #2B4DFE 96.54%);
+  border-radius: 24px;
+  padding: 1px;
+
+  button {
+    position: relative;
+    border-radius: 24px;
+    width: 100%;
+    height: 34px;
+    /* Default */
+    background: #1F253A;
+
+    justify-content: flex-end;
+  
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px rgba(0, 0, 0, 0.14), 0px 1px 18px rgba(0, 0, 0, 0.12);
+
+    span {
+      position: absolute;
+      transform: translateY(-50%);
+      top: 50%;
+      right: 15.00%;
+    }
+  }
+}
+
+.chooseButton {
+  background: linear-gradient(270deg, #BEFE36 -2.13%, #FEF636 19.71%, #FF63BE 51.06%, #A635FF 77.27%, #2B4DFE 96.54%);
+  border-radius: 24px;
+  padding: 1px;
+
+  button {
+    position: relative;
+    border-radius: 24px;
+    width: 100%;
+    height: 34px;
+    /* Default */
+    background: #1F253A;
+
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px rgba(0, 0, 0, 0.14), 0px 1px 18px rgba(0, 0, 0, 0.12);
+
+  }
+}
+
+.accountSelected {
+  background: linear-gradient(270deg, #BEFE36 -2.13%, #FEF636 19.71%, #FF63BE 51.06%, #A635FF 77.27%, #2B4DFE 96.54%);
+  padding: 1px 0;
+  div {
+    background: #1F253A;
+  }
+}
+
+.accountNOSelected {
+  padding: 1px 0;
+
+  div {
+    background: #1F253A;
+  }
+}
+
+.plusImage {
+  position: absolute;
+  transform: translateY(-50%);
+  left: 10.83%;
+  right: 20.83%;
+  top: 50%;
+}

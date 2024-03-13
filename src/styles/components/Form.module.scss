@@ -1,0 +1,62 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 12px;
+  gap: 10px;
+  
+  height: 55px;
+
+  /* Other/Filled Input Background */
+  background: rgba(255, 255, 255, 0.09);
+  border: none;
+  border-radius: 4px 4px 0px 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.42);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.button {
+  position: relative;
+  border-radius: 30px;
+  /* Default */
+  background: #1F253A;
+
+  /* shadow */
+  box-shadow: -6px 2px 12px rgba(177, 78, 255, 0.3), 6px -2px 12px rgba(255, 99, 190, 0.3);
+
+  &:after {
+    position: absolute;
+    top: -2px; bottom: -2px;
+    left: -2px; right: -2px;
+
+    background: linear-gradient(270deg, #BEFE36 -2.13%, #FEF636 19.71%, #FF63BE 51.06%, #A635FF 77.27%, #2B4DFE 96.54%);
+    content: '';
+    z-index: -1;
+    border-radius: 30px;
+  }
+}
+
+.buttonWhite {
+  position: relative;
+  border-radius: 30px;
+  border: 1px solid #FFFFFF;
+
+  /* Default */
+  background: #1F253A;
+}
+
+.buttonDisabled {
+  position: relative;
+  border-radius: 30px;
+  border: 1px solid #FFFFFF;
+
+  /* Default */
+  color: #333333;
+  background: #777777;
+}

@@ -1,0 +1,33 @@
+.splash {
+
+}
+
+.checkbox {
+  width: 17px;
+  height: 17px;
+
+  color: rgba(255, 255, 255, 0.0);
+  border-radius: 2px;
+  border-width: 2px;
+  border-color: #ffffff;
+
+  background-color: rgba(255, 255, 255, 0.0);
+
+  cursor: pointer;
+
+  &:checked {
+    border-radius: 2px;
+    border-width: 2px;
+    border-color: #ffffff;
+  
+    background-color: rgba(255, 255, 255, 0.0);  
+  }
+
+  [type='checkbox']:checked:hover, [type='checkbox']:checked:focus {
+    border-radius: 2px;
+    border-width: 2px;
+    border-color: #ffffff;
+  
+    background-color: rgba(255, 255, 255, 0.0);  
+  }
+}

@@ -1,0 +1,14 @@
+.eventImage {
+  img {
+    width: 100vw;
+    height: 100vw;
+  }
+
+  &:after {
+    content: "";
+    position: absolute; left: 0px; top: 56px;
+    width: 100vw;
+    height: 101vw;
+    background: linear-gradient(180deg, rgba(31, 37, 58, 0) 0%, rgba(31, 37, 58, 0.453125) 89.9%, rgba(31, 37, 58, 0.83) 95.23%, #1F253A 100%);
+  }
+}

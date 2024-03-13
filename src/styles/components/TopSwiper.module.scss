@@ -1,0 +1,39 @@
+.swipe {
+  width: 230px;
+  height: auto;
+
+  text-align: center;
+}
+
+.slide {
+  position: relative;
+  width: 230px;
+  height: 250px;
+
+  img {
+    position: absolute;
+    transform: translateX(-50%);
+    top: 0px;
+    left: 50%;
+  }
+}
+
+.custom_bullet {
+  margin: 30px 5px 40px;
+
+  background-color: #30364D;
+  display: inline-block;
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 10px;
+}
+
+.custom_bullet_active {
+  margin: 30px 5px 40px;
+
+  background-color: rgba(255, 255, 255, 0.5);;
+  display: inline-block;
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 10px;
+}
